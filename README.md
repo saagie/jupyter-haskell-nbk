@@ -1,7 +1,7 @@
-# Jupyter Datascience Notebook for haskell
+# Jupyter Datascience Notebook for Haskell
 
 ## Run with :
-	docker run -p 8888:8888 -v /path/to/data/notebooks/dir:/notebooks-dir saagie/haskell-notebook:latest
+	docker run -p 8888:8888 -v /path/to/data/notebooks/dir:/notebooks-dir saagie/jupyter-haskell-nbk:latest
 
 	Mounting volume is optional (-v /path/to/data/notebooks/dir:/notebooks-dir) but if you want to do it:
 		* create your local directory with: `mkdir -P /path/to/data/notebooks/dir`
