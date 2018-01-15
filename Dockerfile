@@ -25,4 +25,4 @@ ENV PATH=${PATH}:/home/jovyan/.local/bin:/home/jovyan/.stack/programs/x86_64-lin
 WORKDIR /notebooks-dir
 
 # Default: run without authentication
-CMD ["start-notebook.sh", "--NotebookApp.token=''"]
+CMD ["start-notebook.sh", "--NotebookApp.token=''", "--NotebookApp.password=''"]
